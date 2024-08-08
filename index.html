@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://fontawesome.com/icons" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1><span>Manaswini Thatta</h1>
+            <p>I'm <span class="dynamic-text"></span></p>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am passionate about using the latest tech tools to help businesses grow and improve. 
+                    I know a bit about creating software, analyzing business needs, and working with cloud systems. 
+                    I'm familiar with languages like Java, Python, and I have dabbled in cloud platforms like AWS 
+                    and Azure. My goal is to learn and contribute to tech advancements that make a real difference 
+                    for businesses in today's fast-paced digital world.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Internship')">Internships</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python and Java</span><br>Developing codes</li>
+                        <li><span>Cloud computing wih AWS</span><br>Developing and managing cloud based applications</li>
+                        <li><span>Business analysis with SQL and PowerBI</span><br>Identifying business efficiency</li>
+                        <li><span>Prompt Engineering</span><br>Desigining inputs for AI</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Internship">
+                    <ul>
+                        <li>
+                            <a href="#internship-section" id="salesforce-internship">
+                                <span>Salesforce Administrator Virtual Internship</span>
+                            </a><br>
+                            April-May (2023)
+                            <a href="https://drive.google.com/file/d/1LdkBb3-Aa_wrLtuBBqmC7w25Via0s8iw/view?usp=drive_link" target="_blank">View Certificate</a>
+                        </li>
+                        <li>
+                        <a href="#internship-section" id="AWS-internship">
+                            <span>AWS Data Analytics Virtual Internship</span>
+                        </a><br>
+                        July-sep (2022)
+                        <a href="https://drive.google.com/file/d/1-CNrPCM2IYCPTbQmrg8YtboAczkcSpuh/view?usp=drive_link" target="_blank">View Certificate</a>
+                    </li>
+                    <li>
+                        <a href="#internship-section" id="goodgleandriod-internship">
+                            <span>Android Developer Virtual Internship</span>
+                        </a><br>
+                        Jan-Mar (2024)
+                        <a href="https://drive.google.com/file/d/1dUoalJ_FSJstJQQMsJJSuze8edUItsAZ/view?usp=drive_linkhttps://drive.google.com/file/d/1dUoalJ_FSJstJQQMsJJSuze8edUItsAZ/view?usp=drive_link" target="_blank">View Certificate</a>
+                    </li>
+
+                    <li>
+                        <a href="#internship-section" id="networking-internship">
+                            <span>Networking Virtual Internship</span>
+                        </a><br>
+                        sep-nov (2023)
+                        <a href="https://drive.google.com/file/d/15KaYAdIloIhjXc-A3_vkVVNPpz-YXJ_r/view?usp=sharing" target="_blank">View Certificate"</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech - computer science and engineering</span><br>2020-2024<br>CGPA-7.92</li>
+                        <li><span>Board of Intermediate - MPC</span><br>2018-2020<br>CGPA-9.61</li>
+                        <li><span>Board of secondary </span><br>2017-2018<br>CGPA-9.8</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Accounting System</h2>
+                <p>Designed and executed webiste with team of four members using webtechnologies and API's.</p>
+                <a href="file:///C:/Users/Manu/Desktop/index.html">Visit</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Snake Blockade Game</h2>
+                <p>Developed user friendly game website using python programming.</p>
+                <a href="https://turquoise-tana-9.tiiny.site">Visit</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Tic Tac Toe game</h2>
+                <p>Developed and executed a roboust webiste and mobile game using CHATGPT.</p>
+                <a href="https://manaswinithatta.github.io/tic-tac-toe/">Visit</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/certifications.jpg">
+                <div class="layer">
+                    <h3>My certifications</h3>
+                    <p>Knowledge in form of certification.</p>
+                    <a href="https://manaswinithatta.github.io/manaswini/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/activites.png">
+                <div class="layer">
+                    <h3>Activites</h3>
+                    <p>My activites during graduaion</p>
+                    <a href="https://manaswinithatta.github.io/activities/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>thattamanaswini29@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6309328526</p>
+                
+                <a href="https://www.linkedin.com/in/manaswini-thatta-808902214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "download class="btn btn2">linkedin</a>
+                <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Manaswini. Made wtih love<i class="fa-regular fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+     <script src="scripts.js"></script>
+</body>
+</html>
